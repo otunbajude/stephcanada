@@ -70,9 +70,9 @@ export const SectionText = styled.p`
   margin-bottom:40px;
   margin-top:20px;
 
-  
 
   @media ${(props) => props.theme.breakpoints.md} {
+    display:grid;
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
@@ -80,6 +80,7 @@ export const SectionText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
+    display:grid;
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
